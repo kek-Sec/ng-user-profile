@@ -6,10 +6,16 @@ import { Router, RouterModule, ROUTES } from '@angular/router'; // we also need 
 import { NbSidebarModule, NbLayoutModule } from '@nebular/theme';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './nav/header/header.component';
+import { FooterComponent } from './nav/footer/footer.component';
+import { SidenavComponent } from './nav/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    SidenavComponent
   ],
   imports: [
     NbButtonModule,
